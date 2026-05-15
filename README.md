@@ -66,7 +66,7 @@ main.py            # Entry point
 train.py           # Training pipeline
 requirements.txt   # Dependencies
 README.md          # Project documentation
-
+```
 ---
 
 ## Example Usage
