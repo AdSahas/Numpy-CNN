@@ -56,12 +56,6 @@ train(X_train, y_train, epochs=20, batch_size=32, lr=0.02)
 
 ---
 
-## Results
-
-The model achieved approximately 93% test accuracy on the evaluation dataset.
-
----
-
 ## Project Structure
 
 .
@@ -99,10 +93,12 @@ The focus of the project is educational implementation rather than production-sc
 
 ## Results
 
-The model achieved approximately 93% test accuracy on the test dataset using a simple CNN architecture consisting of:
+The model achieved approximately 95.95% test accuracy on the test dataset using a simple CNN architecture consisting of:
 - 1 convolutional layer
 - ReLU activation
 - max pooling
 - 1 fully connected output layer
 
 Despite the minimal architecture and the absence of deep learning frameworks such as TensorFlow or PyTorch, the implementation successfully learned meaningful image representations through manual forward and backward propagation.
+
+This model did not use a random seed, results my vary. 
