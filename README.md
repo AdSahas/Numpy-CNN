@@ -58,24 +58,30 @@ train(X_train, y_train, epochs=20, batch_size=32, lr=0.02)
 
 ## Project Structure
 
-.
-├── layers.py
-├── main.py
-├── train.py
-├── requirements.txt
-└── README.md
+```text id="t55p2m"
+## Project Structure
+
+layers.py          # Layer implementations
+main.py            # Entry point
+train.py           # Training pipeline
+requirements.txt   # Dependencies
+README.md          # Project documentation
 
 ---
 
 ## Example Usage
 
+```python
 # conduct training on a subset of the data for working without GPU
 print("starting training")
 train(X_train[:30000], y_train[:30000], epochs=20, batch_size=32, lr=0.02)
+```
 
+```python
 # evaluate on a subset of the data. 
 print("Train acc:", accuracy(X_train[:5000], y_train[:5000]))
 print("Test acc:", accuracy(X_test[:2000], y_test[:2000]))
+```
 
 ---
 
